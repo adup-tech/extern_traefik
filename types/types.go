@@ -462,6 +462,7 @@ type Datadog struct {
 type Statsd struct {
 	Address      string `description:"StatsD address"`
 	PushInterval string `description:"StatsD push interval" export:"true"`
+	Prefix			 string `description:"Prefix to use for metrics collection." json:"prefix,omitempty" toml:"prefix,omitempty" yaml:"prefix,omitempty" export:"true"`
 }
 
 // InfluxDB contains address and metrics pushing interval configuration
