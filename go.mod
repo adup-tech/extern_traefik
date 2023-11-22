@@ -46,7 +46,7 @@ require (
 	github.com/google/go-github/v28 v28.0.0
 	github.com/googleapis/gnostic v0.1.0 // indirect
 	github.com/gorilla/mux v1.7.3
-	github.com/gorilla/websocket v1.4.0
+	github.com/gorilla/websocket v1.4.1
 	github.com/hashicorp/consul/api v1.2.0
 	github.com/hashicorp/go-version v1.2.0
 	github.com/huandu/xstrings v1.2.0 // indirect
